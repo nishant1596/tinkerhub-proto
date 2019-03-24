@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+nav{
+  background-color: teal;
+  padding: 0px 10px;
+}
+.sidenav{
+  background-color: teal;
+}
+.sidenav > li > a{
+  color: white;
+}
+.sidenav > li > i{
+  color: white;
+}
