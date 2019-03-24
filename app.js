@@ -1,4 +1,4 @@
-var $message = 'Learn to Teach -- Teach to Learn'.split('').reverse();
+var $message = 'Learn to Teach \n Teach to Learn'.split('').reverse();
 
 // Set the frequency of your 'pops'
 var $timeout = 200;
