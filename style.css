@@ -4,8 +4,9 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 nav{
-  background-color: teal;
+  background-color: rgba(0,128,128,0.2);
   padding: 0px 10px;
+
 }
 .sidenav{
   background-color: teal;
@@ -15,4 +16,23 @@ nav{
 }
 .sidenav > li > i{
   color: white;
+}
+body{
+  min-height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('./icons/background1.jpg')
+}
+.brand-logo > img{
+  width: 20%;
+  height: 55px;
+}
+.learn-image{
+  width: 100px;
+  height: 100px;
+}
+#home-gif{
+  font-size: 30px;
+  color: white;
+}
+.scroll-down-icon{
+  margin-top: 150px;
 }
