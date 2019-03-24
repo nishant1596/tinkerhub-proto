@@ -11,28 +11,33 @@
 <!-- Dropdown Structure -->
 
 <!-- Navigation Bar starts-->
-<nav>
-   <div class="nav-wrapper">
-     <a href="#!" class="brand-logo">
-      Lea{r}n
-     </a>
-     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-     <ul class="right hide-on-med-and-down">
-       <li><i class="material-icons">calendar_today</i></li>
-       <li><a href="calender.html">Event Calender</a></li>
-       <li><span style="padding-right:20px;"></span></li>
+<div class=" front-ui-background">
 
-       <li><i class="material-icons">accessibility_new</i></li>
-       <li><a href="team.html">Team</a></li>
-       <li><span style="padding-right:30px;"></span></li>
+<div class="navbar-fixed">
+  <nav>
+     <div class="nav-wrapper">
+       <a href="#!" class="brand-logo">
+        Lea{r}n
+       </a>
+       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+       <ul class="right hide-on-med-and-down">
+         <li><i class="material-icons">calendar_today</i></li>
+         <li><a href="calender.html">Event Calender</a></li>
+         <li><span style="padding-right:20px;"></span></li>
 
-       <li><i class="material-icons">arrow_right_alt</i></li>
-       <li><a href="register.html">Register</a></li>
-       <li><span style="padding-right:20px;"></span></li>
-       <!-- <li><a href="mobile.html">Mobile</a></li> -->
-     </ul>
-   </div>
- </nav>
+         <li><i class="material-icons">accessibility_new</i></li>
+         <li><a href="team.html">Team</a></li>
+         <li><span style="padding-right:30px;"></span></li>
+
+         <li><i class="material-icons">arrow_right_alt</i></li>
+         <li><a href="register.html">Register</a></li>
+         <li><span style="padding-right:20px;"></span></li>
+         <!-- <li><a href="mobile.html">Mobile</a></li> -->
+       </ul>
+     </div>
+   </nav>
+</div>
+
  <ul class="sidenav" id="mobile-demo">
    <!-- <li></li> -->
    <li><a href="calender.html"><i class="material-icons" style="color:white;">event_available</i>Event Calender</a></li>
@@ -58,19 +63,63 @@
       <p id="home-gif"></p>
     </div>
     <div class="">
-      <img src="icons/logo.png" style="width:30%;height:100%">
+      <img src="icons/logo.png" class="tinkerhub-logo">
     </div>
+
     <div class="scroll-down-icon">
-      <button class="btn btn-floating" name="button"><i class="material-icons">expand_more</i></button>
+    <a href="#ask-question-title" class="btn btn-floating"><i class="material-icons">expand_more</i></a>
     </div>
 
   </div>
 </div>
-
+</div>
 <!-- Front page content view 1 finished -->
 
+<!-- Front page content view 2 start -->
+<section class="view2">
+  <div class="container-fluid">
+    <div class="center" id="ask-question-title">
+      <p class="ask-question-title">The Problem</p>
+    </div>
+    <div class="row">
+      <div class="col s12 m4 l4">
+        <img src="icons/student.png" alt="" class="view2-one">
+      </div>
+      <div class="col s0 m1 l1">
 
+      </div>
+      <div class="col s12 m7 l7">
+        <p class="right ask-question-about">A lot of times, small communities and clubs that start in colleges becoming inactive because of less access to resource persons who can take sessions or get a meetup / discussion started.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="view3">
+  <div class="container-fluid">
+    <div class="center" id="ask-question-title">
+      <p class="ask-question-title" style="color:white">The Solution</p>
+    </div>
+    <div class="row">
+      <div class="col s12 m4 l4">
+        <img src="icons/group-profile-users.png" class="view2-one">
+      </div>
+      <div class="col s0 m1 l1">
+
+      </div>
+      <div class="col s12 m7 l7">
+
+          <ul class="right ask-question-about" style="color:white">
+            <li style="list-style-type:upper-roman">we enable student communities to be self sustained to conduct activities By helping them build resource persons within! </li><br>
+            <li style="list-style-type:upper-roman">TechSpeakers who can give intro sessions in different technology verticals. </li> <br>
+            <li style="list-style-type:upper-roman">With a little help from the content we provide them</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Front page content view 2 finished -->
 
 <!-- HTML code ends -->
       <script src="materialize/jquery.js" charset="utf-8"></script>

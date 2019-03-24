@@ -4,7 +4,8 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 nav{
-  background-color: rgba(0,128,128,0.2);
+  /* background-color: rgba(0,128,128,0.2); */
+  background-color: #1A4437;
   padding: 0px 10px;
 
 }
@@ -17,7 +18,7 @@ nav{
 .sidenav > li > i{
   color: white;
 }
-body{
+.front-ui-background{
   min-height: 100vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('./icons/background1.jpg')
 }
@@ -26,6 +27,7 @@ body{
   height: 55px;
 }
 .learn-image{
+  margin-top: 100px;
   width: 100px;
   height: 100px;
 }
@@ -34,5 +36,56 @@ body{
   color: white;
 }
 .scroll-down-icon{
-  margin-top: 130px;
+  margin-top: 110px;
+}
+.ask-question-title{
+  font-size: 3.2rem;
+  color: #1A4437;
+  font-weight: bold;
+}
+.tinkerhub-logo{
+  height: 30%;
+  width: 30%;
+}
+.view2{
+  min-height: 90vh;
+  margin-top: -48px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.1)), url('./icons/background2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.view2-one{
+  width: 100%;
+  height: 300px;
+}
+.ask-question-about{
+  font-size: 2rem;
+  text-align: justify;
+}
+ul.ask-question-about{
+  font-size: 2rem;
+}
+.view3{
+  min-height: 90vh;
+  margin-top: -48px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('./icons/background1.jpg');
+}
+@media screen and (max-width: 720px) {
+  .tinkerhub-logo{
+    height: 50%;
+    width: 50%;
+  }
+  .view2-one{
+    width: 50%;
+    height: 150px;
+    display: block;
+    margin: auto auto;
+    color: white;
+  }
+  .ask-question-about{
+    line-height: 2rem;
+    text-align: center;
+  }
 }
