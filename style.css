@@ -72,6 +72,14 @@ ul.ask-question-about{
   margin-top: -48px;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('./icons/background1.jpg');
 }
+.team-title{
+  font-size: 3.2rem;
+  color: white;
+  /* font-weight: bold; */
+  margin-top: 20px;
+}
+
+
 @media screen and (max-width: 720px) {
   .tinkerhub-logo{
     height: 50%;

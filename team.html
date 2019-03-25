@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+<!-- HTML code starts -->
+<!-- Dropdown Structure -->
+
+<!-- Navigation Bar starts-->
+<div class=" front-ui-background">
+
+<div class="navbar-fixed">
+  <nav>
+     <div class="nav-wrapper">
+       <a href="#!" class="brand-logo">
+        Lea{r}n
+       </a>
+       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+       <ul class="right hide-on-med-and-down">
+         <li><i class="material-icons">calendar_today</i></li>
+         <li><a href="calender.html">Event Calender</a></li>
+         <li><span style="padding-right:20px;"></span></li>
+
+         <li><i class="material-icons">accessibility_new</i></li>
+         <li><a href="team.html">Team</a></li>
+         <li><span style="padding-right:30px;"></span></li>
+
+         <li><i class="material-icons">arrow_right_alt</i></li>
+         <li><a href="register.html">Register</a></li>
+         <li><span style="padding-right:20px;"></span></li>
+         <!-- <li><a href="mobile.html">Mobile</a></li> -->
+       </ul>
+     </div>
+   </nav>
+</div>
+
+ <ul class="sidenav" id="mobile-demo">
+   <!-- <li></li> -->
+   <li><a href="calender.html"><i class="material-icons" style="color:white;">event_available</i>Event Calender</a></li>
+   <!-- <li><span style="padding-right:20px;"></span></li> -->
+
+   <!-- <li></li> -->
+   <li><a href="team.html"><i class="material-icons" style="color:white;">accessibility_new</i>Team</a></li>
+   <!-- <li><span style="padding-right:30px;"></span></li> -->
+
+   <!-- <li></li> -->
+   <li><a href="register.html"><i class="material-icons" style="color:white;">arrow_right_alt</i>Register</a></li>
+   <!-- <li><span style="padding-right:20px;"></span></li> -->
+ </ul>
+<!-- Navigation Bar Finishes-->
+<div class="container center team-title">
+  Team
+  <div class="">
+    <img src="icons/connection.png" alt="" height="50" width="50">
+  </div>
+</div>
+
+<div class="row">
+  <!-- Card starting -->
+   <div class="col s12 m6 l3">
+     <div class="card">
+       <div class="card-image">
+         <img src="icons/student.png" class="center" height="150px" width="50%" style="border-radius:50%; ">
+         <span class="card-title" style="color:teal;">Team Member Name</span>
+       </div>
+       <div class="card-content">
+         javascript Enthusiastic <br>
+         Coder <br>
+         Android Developer
+       </div>
+       <div class="card-action">
+         <a href="#" ><img src="icons/linkedin.png" style="display:block;margin: 0px auto" height="20px"></a>
+       </div>
+     </div>
+   </div>
+   <!-- Card Ending -->
+   <!-- Card starting -->
+    <div class="col s12 m6 l3">
+      <div class="card">
+        <div class="card-image">
+          <img src="icons/student.png" class="center" height="150px" width="50%" style="border-radius:50%; ">
+          <span class="card-title" style="color:teal;">Team Member Name</span>
+        </div>
+        <div class="card-content">
+          javascript Enthusiastic <br>
+          Coder <br>
+          Android Developer
+        </div>
+        <div class="card-action">
+          <a href="#" ><img src="icons/linkedin.png" style="display:block;margin: 0px auto" height="20px"></a>
+        </div>
+      </div>
+    </div>
+    <!-- Card Ending -->
+    <!-- Card starting -->
+     <div class="col s12 m6 l3">
+       <div class="card">
+         <div class="card-image">
+           <img src="icons/student.png" class="center" height="150px" width="50%" style="border-radius:50%; ">
+           <span class="card-title" style="color:teal;">Team Member Name</span>
+         </div>
+         <div class="card-content">
+           javascript Enthusiastic <br>
+           Coder <br>
+           Android Developer
+         </div>
+         <div class="card-action">
+           <a href="#" ><img src="icons/linkedin.png" style="display:block;margin: 0px auto" height="20px"></a>
+         </div>
+       </div>
+     </div>
+     <!-- Card Ending -->
+     <!-- Card starting -->
+      <div class="col s12 m6 l3">
+        <div class="card">
+          <div class="card-image">
+            <img src="icons/student.png" class="center" height="150px" width="50%" style="border-radius:50%; ">
+            <span class="card-title" style="color:teal;">Team Member Name</span>
+          </div>
+          <div class="card-content">
+            javascript Enthusiastic <br>
+            Coder <br>
+            Android Developer
+          </div>
+          <div class="card-action">
+            <a href="#" ><img src="icons/linkedin.png" style="display:block;margin: 0px auto" height="20px"></a>
+          </div>
+        </div>
+      </div>
+      <!-- Card Ending -->
+ </div>
+
+
+
+<!-- HTML code ends -->
+      <script src="materialize/jquery.js" charset="utf-8"></script>
+      <script src="app.js" charset="utf-8"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+      <script>
+      $(document).ready(function(){
+         $('.sidenav').sidenav();
+       });
+       $(".dropdown-trigger").dropdown();
+      </script>
+    </body>
+  </html>
