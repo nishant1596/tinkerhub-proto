@@ -20,8 +20,9 @@ nav{
 }
 .front-ui-background{
   min-height: 100vh;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('./icons/background1.jpg')
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('./icons/background1.jpg');
 }
+
 .brand-logo > img{
   width: 20%;
   height: 55px;
@@ -72,14 +73,57 @@ ul.ask-question-about{
   margin-top: -48px;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('./icons/background1.jpg');
 }
+.view4{
+  .view2{
+    min-height: 90vh;
+    margin-top: -48px;
+    background: white;
+  }
+}
+/*Team Section starts */
 .team-title{
-  font-size: 3.2rem;
+  font-size:40px;
   color: white;
-  /* font-weight: bold; */
-  margin-top: 20px;
+  margin-top: 80px;
+  text-align: center;
 }
 
+/*Team Section Finishes */
 
+
+/*Event Calender starts*/
+  .event-calender-banner{
+    font-size:40px;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .event-calender-front-ui-background{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('./icons/background1.jpg');
+    min-height:300px;
+  }
+  .calender-headings{
+    border: 2px solid teal;
+  }
+  .calender-title{
+    font-size: 18px;
+    text-align: center;
+    color: teal;
+    font-weight: bold;
+  }
+  .center{
+    text-align: center;
+    color: teal;
+  }
+  .border{
+    border: 2px solid teal;
+  }
+  .success-stories-title{
+    font-size: 3.2rem;
+    color: #1A4437;
+    font-weight: bold;
+  }
+/*Event Calender Finishes */
 @media screen and (max-width: 720px) {
   .tinkerhub-logo{
     height: 50%;
