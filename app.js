@@ -25,6 +25,19 @@ for (var i = 0; i < entry.length; i += 6){
   console.log(level);
   console.log(photo);
 
+  var name_json = { ...name};
+  var college_json = { ...college};
+  var phone_no_json = { ...phone_no};
+  var technology_json = { ...technology};
+  var level_json = { ...level};
+  var photo_json = { ...photo};
+
+  console.log(name_json);
+  console.log(college_json);
+  console.log(phone_no_json);
+  console.log(technology_json);
+  console.log(level_json);
+  console.log(photo_json);
 })
 });
 
